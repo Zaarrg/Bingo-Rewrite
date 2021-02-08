@@ -1,0 +1,64 @@
+name: Bingo
+version: ${project.version}
+main: main.main
+api-version: 1.16
+authors: [ Zarg ]
+description: Bingo Plugin by Zarg
+
+commands:
+  bingopl:
+    description: Standard Command
+    usage: /bingopl
+  bingorestart:
+    description: Startet das Spiel manuell neu
+    usage: /restart
+  top:
+    description: An die Oberflaeche teleportieren
+    usage: /top
+  bingo:
+    description: Oeffnet das Bingo Menu
+    usage: /bingo <start/restart>
+    aliases: b
+  start:
+    description: force Start
+    usage: /start
+  brestart:
+    description: force restart
+    usage: /brestart
+  teams:
+    description: Team Choice
+    usage: /teams
+  settings:
+    description: Set the Settings of Bingo
+    usage: /settings
+  save:
+    description: Save all Settings
+    usage: /save
+  reset:
+    description: Reset World
+    usage: /reset
+permissions:
+  bingo.defaultcmd:
+    description: Standard Command
+    default: true
+  bingo.restart:
+    description: Restart Game per this Command.
+    default: op
+  bingo.top:
+    description: Teleport to the Top.
+    default: true
+  bingo.gamemaster:
+    description: All Permissions.
+    default: op
+  bingo.start:
+    description: Use Start Command to Start the Game.
+    default: op
+  bingo.save:
+    description: Save Game Settings Command.
+    default: op
+  bingo.teams:
+    description: Teams Menu.
+    default: op
+  bingo.reset:
+    description: Reset Worlds Command.
+    default: op

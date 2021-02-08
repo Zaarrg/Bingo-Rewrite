@@ -1,0 +1,40 @@
+#Todo
+
+[DONE] Fix all Wrong Language references
+
+[DONE] Fix ColorCodes
+
+[DONE] Fix Scoreboard Ingame not appering
+
+[DONE] Fix All Teams Full
+
+[DONE] Fix Bingo not Recognizing Items in Inventory
+
+[DONE] Fix onClick Event at Teamselector
+
+[DONE] Save Settings -> /save Command
+
+[DONE] Fix At Join Inv cleared
+
+[DONE] Rejoin Spawn is always at Spawn...
+
+[Done] Add Translateion for hours,minutes,sceonds
+
+[Done] Join Same Team Left on Join... (New Permission Bingo.teams -> op)
+
+
+
+Save Games
+    - [DONE] UDID Speicher nicht funktionieren
+    - UUID Illigea.JAva.Argument Fixed ?
+    - Bukkitrunnable müssen ausgeführt werden.
+    - Rejoin + Im Leaver Team, löscht einen aus Leaver Team aber added nicht into Team.
+    - [DONE] ChatColor werdene nicht gespeichert
+
+
+
+More Than 9 Bingo Items
+
+
+
+
